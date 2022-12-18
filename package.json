@@ -25,5 +25,18 @@
   "bugs": {
     "url": "https://github.com/ongojs/template/issues"
   },
-  "homepage": "https://github.com/ongojs/template#readme"
+  "homepage": "https://github.com/ongojs/template#readme",
+  "dependencies": {
+    "@ongojs/controller": "file:../controller",
+    "@ongojs/couleurs": "file:../couleurs",
+    "@ongojs/db-schema": "file:../db-schema",
+    "@ongojs/http-controller": "file:../http-controller",
+    "@ongojs/model": "file:../model",
+    "@ongojs/socket": "file:../socket",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "ioredis": "5.2.4",
+    "mongodb": "4.11.0",
+    "socket.io-redis": "6.1.1"
+  }
 }
